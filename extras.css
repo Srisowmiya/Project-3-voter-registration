@@ -1,0 +1,563 @@
+body{
+	background-color: white;
+	overflow-x: hidden;
+	height: 4000px;
+}
+#padding{
+	background-color: black;
+	height: 130px;
+	width: 1330px;
+	color: white;
+}
+#top-wraper{
+	position: relative;
+	bottom: 120px;
+	left: 20px;
+}
+#topwraper{
+	position: relative;
+	bottom: 70px;
+	left: 60px;
+	font-size: 30px;
+	font-weight: bolder;
+	color: white;
+
+}
+
+#topwraper1{
+	position: relative;
+	bottom: 60px;
+	left: 300px;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+#wraper{
+	position: relative;
+	left: 590px;
+	bottom: 143px;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+#wraper2{
+	position: relative;
+	left: 670px;
+	bottom:133px ;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+#image{
+	position: relative;
+	left: 1100px;
+	bottom: 180px;
+	border-radius: 3px;
+}
+#image:hover{
+	color: red;
+	border-radius: 5px;
+}
+.fontsetting{
+	position: relative;
+	width: 1300px;
+	bottom: 130px;
+    padding-top: 10px;
+    text-align: center;
+    border: solid 0.5px rgb(221, 221, 221);
+    padding-bottom: 22px;
+}
+#input{
+	position: relative;
+	bottom: 0px;
+	right: 450px;
+	border-radius: 3px;
+	width: 75px;
+	height: 26px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	border-color: blue;
+	background-color: gray;
+	font-weight: bold;
+}
+#input a{
+	text-decoration: none;
+	color: white;
+}
+#input:hover{
+	background-color: #347deb;
+}
+
+#input-box{
+	position: relative;
+	bottom: 0px;
+	right: 400px;
+	border-radius: 3px;
+	width: 75px;
+	height: 26px;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	border-color: blue;
+	background-color: #808080;
+	font-weight: bold;
+}
+#input-box a{
+	text-decoration: none;
+	color: white;
+}
+#input-box:hover{
+	background-color: #347deb;
+}
+#language{
+	position: relative;
+	bottom: 0px;
+	left: 350px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.btn{
+	color: #fff;
+	background-color: #5a6268;
+	border-color: #545b62;
+	border: ;
+	float: right;
+	position: relative;
+	right: 90px;
+	bottom: 0px;
+	width: 100px;
+	height: 30px;
+	border-radius: 3px;
+
+}
+select option{
+	background-color: #5a6268;
+	text-align: right;
+	font-family: inherit;
+}
+
+.english{
+	background-color: #5a6268;
+	text-align: right;
+	font-family: inherit;
+}
+.btn1{
+	color: #fff;
+	background-color: #5a6268;
+	border-color: #545b62;
+	border-radius: 3px;
+	width: 75px;
+	height: 30px;
+}
+.btn2{
+	color: #fff;
+	background-color: #5a6268;
+	border-color: #545b62;
+	width: 75px;
+	height: 30px;
+	position: relative;
+	border-radius: 3px;
+}
+.btn3{
+	color: #fff;
+	background-color: #5a6268;
+	border-color: #545b62;
+	width: 75px;
+	height: 30px;
+	position: relative;
+	border-radius: 3px;
+}
+.container{
+	position: relative;
+	left: 90px;
+	top: 1px;
+	height: 3800px;
+	width: 1100px;
+	border-radius: 4px;
+	border: 1px solid gray;
+	background-color: #f8f9fa;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+div h1{
+	position: relative;
+	bottom: 110px;
+	left: 50px;
+	font-size: 35px;
+	font-weight: normal;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	color: #A52A2A;
+}
+.formheading{
+	position: relative;
+	bottom: 20px;
+	left: 30px;
+	width: 1000px;
+	background-color: #C7C5C5;
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; 
+	padding: 16px;
+	font-size: 1rem;
+	border-radius: 3px;
+}
+.descrip{
+	position: relative;
+	width: 1000px;
+	height: 50px;
+	left: 30px;
+	bottom: 50px;
+	color: #000000;
+	font-size: 1.1rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: #E0AB9D;
+	padding: 16px;
+	border-radius: 3px;
+}
+#break-item{
+
+	font-size: 1rem;
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" ;
+}
+#container{
+	font-size: 1rem;
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"  ;
+}
+
+#select2{
+	position: relative;
+	border-radius: 3px;
+	left: 10px;
+	width: 90px;
+	height: 30px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background-color: gray;
+}
+#select2 a{
+	text-decoration: none;
+	color: white;
+	position: relative;
+	right: 5px;
+	font-size: 16px;
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.radio{
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.radio--input{
+	display: none;
+}
+.radio--radio{
+	width: 1em;
+	height: 1em;
+	border: 2px solid #d8e4e2;
+	border-radius: 50%;
+	margin-right: 10px;
+	box-sizing: border-box;
+	padding: 2px;
+}
+.radio--radio::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: #007bff;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: transform 0.15s;
+}
+.radio--input:checked + .radio--radio::after{
+	transform: scale(1);
+}
+.radio1{
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.radio--input1{
+	display: none;
+}
+.radio--radio1{
+	width: 1em;
+	height: 1em;
+	border: 2px solid #d8e4e2;
+	border-radius: 50%;
+	margin-right: 10px;
+	box-sizing: border-box;
+	padding: 2px;
+}
+.radio--radio1::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: #007bff;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: transform 0.15s;
+}
+.radio--input1:checked + .radio--radio1::after{
+	transform: scale(1);
+}
+.break-item{
+	position: relative;
+	width: 1000px;
+	height: 40px;
+	left: 30px;
+	bottom: 20px;
+	color: #000000;
+	font-size: 1.1rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: #E0AB9D;
+	padding: 16px;
+	border-radius: 3px;
+
+}
+#place{
+	border-radius: 3px;
+	align-items: center;
+	border: 1px solid;
+	height: 20px;
+}
+#key{
+	width: 80px;
+    padding: 0px;
+    position: relative;
+    top: 7px;
+    margin-left: 50px;
+    background-color: gray;
+    height: 38px;
+    font-size: 20px;
+}
+.material-icons{
+	position: relative;
+	right: 50px;
+}
+.btn4{
+	color: #fff;
+	background-color: #5a6268;
+	border-color: #545b62;
+	width: 75px;
+	height: 30px;
+	position: relative;
+	border-radius: 3px;
+}
+.radio2{
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.radio--input2{
+	display: none;
+}
+.radio--radio2{
+	width: 1em;
+	height: 1em;
+	border: 2px solid #d8e4e2;
+	border-radius: 50%;
+	margin-right: 10px;
+	box-sizing: border-box;
+	padding: 2px;
+}
+.radio--radio2::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: #007bff;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: transform 0.15s;
+}
+.radio--input2:checked + .radio--radio2::after{
+	transform: scale(1);
+}
+.radio3{
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.radio--input3{
+	display: none;
+}
+.radio--radio3{
+	width: 1em;
+	height: 1em;
+	border: 2px solid #d8e4e2;
+	border-radius: 50%;
+	margin-right: 10px;
+	box-sizing: border-box;
+	padding: 2px;
+}
+.radio--radio3::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: #007bff;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: transform 0.15s;
+}
+.radio--input3:checked + .radio--radio3::after{
+	transform: scale(1);
+}
+.btn5{
+	color: #fff;
+	background-color: #5a6268;
+	border-color: #545b62;
+	width: 75px;
+	height: 30px;
+	position: relative;
+	border-radius: 3px;
+}
+option{
+	border-radius: 2px;
+	border: 1px solid;
+	width: 70px;
+	height: 23px;
+	background-color: dodgerblue;
+}
+#border{
+	left: 30px;
+	width: 1030px;
+	border-bottom: 1px solid #d3d6db;
+	position: relative;
+	top:20px ;
+}
+.break-item1{
+	position: relative;
+	width: 1000px;
+	height: 40px;
+	left: 30px;
+	top: 40px;
+	color: #000000;
+	font-size: 1.1rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: #E0AB9D;
+	padding: 16px;
+	border-radius: 3px;
+}
+.link{
+	position: relative;
+	left: 860px;
+	bottom: 60px;
+}
+#file{
+	position: relative;
+	bottom: 24px;
+	left: 80px;
+}
+.place{
+	border-radius: 3px;
+	align-items: center;
+	border: 1px solid;
+	height: 20px;
+	width: 250px;
+}
+.radio4{
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.radio--input4{
+	display: none;
+}
+.radio--radio4{
+	width: 1em;
+	height: 1em;
+	border: 2px solid #d8e4e2;
+	border-radius: 50%;
+	margin-right: 10px;
+	box-sizing: border-box;
+	padding: 2px;
+}
+.radio--radio4::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: #007bff;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: transform 0.15s;
+}
+.radio--input4:checked + .radio--radio4::after{
+	transform: scale(1);
+}
+.radio5{
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+	margin-left: 10px;
+}
+.radio--input5{
+	display: none;
+}
+.radio--radio5{
+	width: 1em;
+	height: 1em;
+	border: 2px solid #d8e4e2;
+	border-radius: 50%;
+	margin-right: 10px;
+	box-sizing: border-box;
+	padding: 2px;
+}
+.radio--radio5::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: #007bff;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: transform 0.15s;
+}
+.radio--input5:checked + .radio--radio5::after{
+	transform: scale(1);
+}
+#images{
+	position: relative;
+	bottom: 30px;
+
+}
+#images1{
+	position: relative;
+	bottom: 80px;
+	left: 420px;
+
+}
+.padding{
+	text-align: center;
+	position: relative;
+	width: 1300px;
+	top: 10px;
+    height: 80px;
+    margin-top: auto;
+    padding-top: 28px;
+    background-color: rgb(7, 7, 7);
+    color: darkgray;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#submit{
+	position: relative;
+	left: 90px;
+	bottom: 20px;
+	width: 75px;
+	height: 30px;
+	border-radius: 4px;
+	color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
